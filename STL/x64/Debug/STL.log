@@ -1,0 +1,33 @@
+﻿  test.cpp
+D:\code\stl\STL\deque.h(280,21): warning C4018: “>”: 有符号/无符号不匹配
+D:\code\stl\STL\deque.h(279): message : 在编译 类 模板 成员函数“void My_STL::deque<int,My_STL::alloc,8>::reserve_map_at_front(My_STL::deque<int,My_STL::alloc,8>::size_type)”时
+D:\code\stl\STL\deque.h(505): message : 查看对正在编译的函数 模板 实例化“void My_STL::deque<int,My_STL::alloc,8>::reserve_map_at_front(My_STL::deque<int,My_STL::alloc,8>::size_type)”的引用
+D:\code\stl\STL\test.cpp(172): message : 查看对正在编译的 类 模板 实例化“My_STL::deque<int,My_STL::alloc,8>”的引用
+D:\code\stl\STL\alloc.h(274,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\stl\STL\alloc.h(259): message : 在编译 类 模板 成员函数“char *My_STL::__default_alloc_template<true,0>::chunk_alloc(size_t,int &)”时
+D:\code\stl\STL\alloc.h(223): message : 查看对正在编译的函数 模板 实例化“char *My_STL::__default_alloc_template<true,0>::chunk_alloc(size_t,int &)”的引用
+D:\code\stl\STL\alloc.h(221): message : 在编译 类 模板 成员函数“void *My_STL::__default_alloc_template<true,0>::refill(size_t)”时
+D:\code\stl\STL\alloc.h(178): message : 查看对正在编译的函数 模板 实例化“void *My_STL::__default_alloc_template<true,0>::refill(size_t)”的引用
+D:\code\stl\STL\alloc.h(26): message : 查看对正在编译的 类 模板 实例化“My_STL::__default_alloc_template<true,0>”的引用
+D:\code\stl\STL\alloc.h(23): message : 在编译 类 模板 成员函数“void My_STL::simple_alloc<int,Alloc>::deallocate(T *,size_t)”时
+          with
+          [
+              Alloc=My_STL::alloc,
+              T=int
+          ]
+D:\code\stl\STL\vector.h(65): message : 查看对正在编译的函数 模板 实例化“void My_STL::simple_alloc<int,Alloc>::deallocate(T *,size_t)”的引用
+          with
+          [
+              Alloc=My_STL::alloc,
+              T=int
+          ]
+D:\code\stl\STL\vector.h(65): message : 查看对正在编译的 类 模板 实例化“My_STL::simple_alloc<int,Alloc>”的引用
+          with
+          [
+              Alloc=My_STL::alloc
+          ]
+D:\code\stl\STL\vector.h(62): message : 在编译 类 模板 成员函数“void My_STL::vector<int,My_STL::alloc>::deallocate(void)”时
+D:\code\stl\STL\vector.h(127): message : 查看对正在编译的函数 模板 实例化“void My_STL::vector<int,My_STL::alloc>::deallocate(void)”的引用
+D:\code\stl\STL\test.cpp(15): message : 查看对正在编译的 类 模板 实例化“My_STL::vector<int,My_STL::alloc>”的引用
+D:\code\stl\STL\alloc.h(298,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  STL.vcxproj -> D:\code\stl\STL\x64\Debug\STL.exe
